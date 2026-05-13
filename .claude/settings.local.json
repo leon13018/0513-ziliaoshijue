@@ -7,7 +7,8 @@
       "Bash(node \"C:\\\\Users\\\\User\\\\.claude\\\\statusline.js\")",
       "Bash(\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Users\\\\User\\\\.claude\\\\statusline.js\")",
       "Bash(claude *)",
-      "Bash(node ~/.claude/statusline.js)"
+      "Bash(node ~/.claude/statusline.js)",
+      "Bash(python *)"
     ]
   }
 }
