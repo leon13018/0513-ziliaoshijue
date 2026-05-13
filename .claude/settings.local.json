@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ExecutionPolicy *)",
+      "PowerShell(& \"C:\\\\Users\\\\User\\\\Desktop\\\\0513\\\\venv\\\\Scripts\\\\python.exe\" --version; & \"C:\\\\Users\\\\User\\\\Desktop\\\\0513\\\\venv\\\\Scripts\\\\pip.exe\" list)"
+    ]
+  }
+}
