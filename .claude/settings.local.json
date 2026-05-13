@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "PowerShell(Get-ExecutionPolicy *)",
-      "PowerShell(& \"C:\\\\Users\\\\User\\\\Desktop\\\\0513\\\\venv\\\\Scripts\\\\python.exe\" --version; & \"C:\\\\Users\\\\User\\\\Desktop\\\\0513\\\\venv\\\\Scripts\\\\pip.exe\" list)"
+      "PowerShell(& \"C:\\\\Users\\\\User\\\\Desktop\\\\0513\\\\venv\\\\Scripts\\\\python.exe\" --version; & \"C:\\\\Users\\\\User\\\\Desktop\\\\0513\\\\venv\\\\Scripts\\\\pip.exe\" list)",
+      "Bash(echo '{\"model\":\"claude-sonnet-4-6\",\"cwd\":\"C:\\\\\\\\Users\\\\\\\\User\\\\\\\\Desktop\\\\\\\\0513\",\"context_window_pct\":42,\"5h_usage\":\"15%\",\"7d_usage\":\"8%\"}')",
+      "Bash(node \"C:\\\\Users\\\\User\\\\.claude\\\\statusline.js\")",
+      "Bash(\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Users\\\\User\\\\.claude\\\\statusline.js\")",
+      "Bash(claude *)",
+      "Bash(node ~/.claude/statusline.js)"
     ]
   }
 }
